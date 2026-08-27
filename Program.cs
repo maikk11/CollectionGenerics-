@@ -66,6 +66,21 @@ persone[indiceModifica-1].Age=age;
 Console.WriteLine($"{persone[indiceModifica-1].Name} {persone[indiceModifica-1].Surname} {persone[indiceModifica-1].Age}");
 
 //Scrivere un programma che dichiari una mappa con chiave di tipo string e oggetto a vostra discrezione. Il programma deve prendere in input dei valori, creare un oggetto e aggiungerlo alla mappa. Dopo, provare a rimuovere l’oggetto e cercarlo nuovamente nella mappa.
+Dictionary<string, Person> personeDic = new Dictionary<string, Person>();
+Console.WriteLine($"Inserire nome");
+name = Console.ReadLine();
+Console.WriteLine($"Inserire cognome");
+surname = Console.ReadLine();
+Console.WriteLine($"Inserire età");
+age = int.Parse(Console.ReadLine());
+Person nuovaPersona = new Person(name,surname,age);
+personeDic.Add(nuovaPersona.Name,nuovaPersona);
+Console.WriteLine($"{personeDic[nuovaPersona.Name]}");
+personeDic.Remove(nuovaPersona.Name);
+if (!personeDic.ContainsKey(nuovaPersona.Name))
+{
+    Console.WriteLine($"Chiave {nuovaPersona.Name} non presente");
+}
 
 //Scrivere un programma che crei una lista di elementi e che ne rimuova i duplicati.
 
