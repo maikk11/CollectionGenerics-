@@ -1,0 +1,14 @@
+C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\bin\Debug\net8.0\CollectionGenerics.exe
+C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\bin\Debug\net8.0\CollectionGenerics.deps.json
+C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\bin\Debug\net8.0\CollectionGenerics.runtimeconfig.json
+C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\bin\Debug\net8.0\CollectionGenerics.dll
+C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\bin\Debug\net8.0\CollectionGenerics.pdb
+C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\obj\Debug\net8.0\CollectionGenerics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\obj\Debug\net8.0\CollectionGenerics.AssemblyInfoInputs.cache
+C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\obj\Debug\net8.0\CollectionGenerics.AssemblyInfo.cs
+C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\obj\Debug\net8.0\CollectionGenerics.csproj.CoreCompileInputs.cache
+C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\obj\Debug\net8.0\CollectionGenerics.dll
+C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\obj\Debug\net8.0\refint\CollectionGenerics.dll
+C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\obj\Debug\net8.0\CollectionGenerics.pdb
+C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\obj\Debug\net8.0\CollectionGenerics.genruntimeconfig.cache
+C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\obj\Debug\net8.0\ref\CollectionGenerics.dll
