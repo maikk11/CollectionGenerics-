@@ -12,3 +12,4 @@ C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\obj\Debug\net8.0\refint\C
 C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\obj\Debug\net8.0\CollectionGenerics.pdb
 C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\obj\Debug\net8.0\CollectionGenerics.genruntimeconfig.cache
 C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\obj\Debug\net8.0\ref\CollectionGenerics.dll
+C:\Users\maico\Desktop\Corsi\CSharp\CollectionGenerics\obj\Debug\net8.0\CollectionGenerics.sourcelink.json

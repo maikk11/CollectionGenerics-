@@ -1,7 +1,10 @@
 ﻿//Creare una List con N oggetti di una classe creata da voi. Creare un’altra List vuota, ciclare la prima lista filtrando gli elementi in base a un criterio scelto da voi e inserire gli elementi nella seconda lista.
+using System.Runtime.CompilerServices;
+
 Car m1 = new Car("Captur", 10000, 3000);
 Car m2 = new Car("T-Roc", 17000, 5000);
 Car m3 = new Car("Panda", 8000, 9000);
+Car m4 = new Car("Panda", 8000, 9000);
 List<Car> macchine = new List<Car>();
 macchine.Add(m1);
 macchine.Add(m2);
@@ -20,6 +23,15 @@ foreach(Car macchina in macchineCostose)
 }
 
 //Creare un HashSet che contenga oggetti di una classe creata da voi e che non ammetta ripetizioni, sovrascrivendo Equals() e GetHashCode().
+HashSet<Car> macchineHash = new HashSet<Car>();
+macchineHash.Add(m1);
+macchineHash.Add(m2);
+macchineHash.Add(m3);
+macchineHash.Add(m4);
+foreach(Car macchina in macchineHash)
+{
+    Console.WriteLine($"{macchina.Name} {macchina.Price} {macchina.Kilometers}");
+}
 
 //Creare una mappa (Dictionary / Map) con oggetti. Chiedere all’utente di inserire una chiave e provare a cercare l’oggetto corrispondente nella mappa.
 

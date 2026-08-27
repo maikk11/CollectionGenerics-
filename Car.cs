@@ -9,4 +9,16 @@ class Car
         this.Price=price;
         this.Kilometers=kilometers;
     }
+    public override bool Equals(object? obj)
+    {
+        if(obj is not Car altra)
+        {
+            return false;
+        }
+        return this.Name==altra.Name && this.Price==altra.Price && this.Kilometers==altra.Kilometers;
+    }
+    public override int GetHashCode()
+    {
+        return HashCode.Combine(Name, Price, Kilometers);
+    }
 }
