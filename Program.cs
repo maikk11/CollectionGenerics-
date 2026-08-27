@@ -1,4 +1,6 @@
 ﻿//Creare una List con N oggetti di una classe creata da voi. Creare un’altra List vuota, ciclare la prima lista filtrando gli elementi in base a un criterio scelto da voi e inserire gli elementi nella seconda lista.
+using System.Runtime.CompilerServices;
+
 Car m1 = new Car("Captur", 10000, 3000);
 Car m2 = new Car("T-Roc", 17000, 5000);
 Car m3 = new Car("Panda", 8000, 9000);
@@ -83,7 +85,20 @@ if (!personeDic.ContainsKey(nuovaPersona.Name))
 }
 
 //Scrivere un programma che crei una lista di elementi e che ne rimuova i duplicati.
-
+macchine.Clear();
+macchine.Add(m1);
+macchine.Add(m2);
+macchine.Add(m3);
+macchine.Add(m4);
+HashSet<Car> macchineNoDuplicate = new HashSet<Car>(macchine);
+foreach(Car mac in macchine)
+{
+    Console.WriteLine($"{mac.Name} {mac}");
+}
+foreach(Car mac in macchineNoDuplicate)
+{
+    Console.WriteLine($"{mac.Name} {mac}");
+}
 //Scrivere una classe generica che possa accettare qualsiasi tipo di dato.
 
 //Scrivere un metodo generico.
