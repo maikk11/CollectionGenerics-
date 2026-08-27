@@ -34,6 +34,13 @@ foreach(Car macchina in macchineHash)
 }
 
 //Creare una mappa (Dictionary / Map) con oggetti. Chiedere all’utente di inserire una chiave e provare a cercare l’oggetto corrispondente nella mappa.
+Dictionary<string, Car> macchineDic = new Dictionary<string, Car>();
+macchineDic.Add(m1.Name,m1);
+macchineDic.Add(m2.Name,m2);
+macchineDic.Add(m3.Name,m3);
+Console.WriteLine("Di che macchina vuoi visualizzare i dati? Captur, T-Roc o Panda");
+string inputMacchina = Console.ReadLine();
+Console.WriteLine($"{macchineDic[inputMacchina]}");
 
 //Scrivere un programma per aggiornare un elemento specifico di una lista in base al suo indice. Creare una lista di persone, chiedere all’utente quale persona vuole modificare, chiedere i nuovi dati e aggiornare quell’elemento.
 
