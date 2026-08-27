@@ -22,7 +22,7 @@ class Car
         return HashCode.Combine(Name, Price, Kilometers);
     }
     public override string ToString()
-{
-    return $"{Price} {Kilometers}";
-}
+    {
+        return $"{Price} {Kilometers}";
+    }
 }

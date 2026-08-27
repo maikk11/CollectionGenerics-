@@ -1,6 +1,4 @@
 ﻿//Creare una List con N oggetti di una classe creata da voi. Creare un’altra List vuota, ciclare la prima lista filtrando gli elementi in base a un criterio scelto da voi e inserire gli elementi nella seconda lista.
-using System.Runtime.CompilerServices;
-
 Car m1 = new Car("Captur", 10000, 3000);
 Car m2 = new Car("T-Roc", 17000, 5000);
 Car m3 = new Car("Panda", 8000, 9000);
@@ -43,6 +41,29 @@ string inputMacchina = Console.ReadLine();
 Console.WriteLine($"{macchineDic[inputMacchina]}");
 
 //Scrivere un programma per aggiornare un elemento specifico di una lista in base al suo indice. Creare una lista di persone, chiedere all’utente quale persona vuole modificare, chiedere i nuovi dati e aggiornare quell’elemento.
+List<Person> persone = new List<Person>();
+Person p1 = new Person("Paolo", "Rossi", 34);
+Person p2 = new Person("Rolando", "Bianchi", 29);
+Person p3 = new Person("Roberto", "Verdi", 48);
+persone.Add(p1);
+persone.Add(p2);
+persone.Add(p3);
+for(int i = 0; i<persone.Count; i++)
+{
+    Console.WriteLine($"{i+1}: {persone[i]}");
+}
+Console.WriteLine($"Inserire indice persona da modificare");
+int indiceModifica = int.Parse(Console.ReadLine());
+Console.WriteLine($"Inserire nuovo nome");
+string name = Console.ReadLine();
+Console.WriteLine($"Inserire nuovo cognome");
+string surname = Console.ReadLine();
+Console.WriteLine($"Inserire nuova età");
+int age = int.Parse(Console.ReadLine());
+persone[indiceModifica-1].Name=name;
+persone[indiceModifica-1].Surname=surname;
+persone[indiceModifica-1].Age=age;
+Console.WriteLine($"{persone[indiceModifica-1].Name} {persone[indiceModifica-1].Surname} {persone[indiceModifica-1].Age}");
 
 //Scrivere un programma che dichiari una mappa con chiave di tipo string e oggetto a vostra discrezione. Il programma deve prendere in input dei valori, creare un oggetto e aggiungerlo alla mappa. Dopo, provare a rimuovere l’oggetto e cercarlo nuovamente nella mappa.
 
