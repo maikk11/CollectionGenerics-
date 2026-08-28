@@ -100,5 +100,9 @@ foreach(Car mac in macchineNoDuplicate)
     Console.WriteLine($"{mac.Name} {mac}");
 }
 //Scrivere una classe generica che possa accettare qualsiasi tipo di dato.
+Generic<string> g1 = new Generic<string>("abc");
+Generic<int> g2 = new Generic<int>(1);
+Console.WriteLine($"{g1.Value}");
+Console.WriteLine($"{g2.Value}");
 
 //Scrivere un metodo generico.
