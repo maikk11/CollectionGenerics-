@@ -1,6 +1,4 @@
 ﻿//Creare una List con N oggetti di una classe creata da voi. Creare un’altra List vuota, ciclare la prima lista filtrando gli elementi in base a un criterio scelto da voi e inserire gli elementi nella seconda lista.
-using System.Runtime.CompilerServices;
-
 Car m1 = new Car("Captur", 10000, 3000);
 Car m2 = new Car("T-Roc", 17000, 5000);
 Car m3 = new Car("Panda", 8000, 9000);
@@ -106,3 +104,10 @@ Console.WriteLine($"{g1.Value}");
 Console.WriteLine($"{g2.Value}");
 
 //Scrivere un metodo generico.
+Print(42);
+Print("ciao");
+Print(m1);
+static void Print<T>(T value)
+{
+    Console.WriteLine($"{value}");
+}
